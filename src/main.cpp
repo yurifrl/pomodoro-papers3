@@ -574,7 +574,7 @@ void setup() {
   auto cfg = M5.config();
   M5.begin(cfg);
   M5.Display.begin();
-  M5.Display.setRotation(2); // Portrait mode
+  M5.Display.setRotation(0); // Portrait mode (flipped)
   M5.Display.fillScreen(TFT_WHITE);
   
   // Set speaker volume (0-255)
